@@ -36,6 +36,9 @@ import java.util.Collection;
 @RequestMapping("/owners/{ownerId}")//
 class PetController {
 
+	private final String A = "A";
+	private final String B = "B"; //あとで消す
+
 	private static final String VIEWS_PETS_CREATE_OR_UPDATE_FORM = "pets/createOrUpdatePetForm";
 
 	private final OwnerRepository owners;
